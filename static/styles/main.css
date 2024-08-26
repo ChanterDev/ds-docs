@@ -1,3 +1,92 @@
 body {
-    background-color: #1f1f1f;
+    background-color: #17181F;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #FFFFFF;
+}
+
+.page-picker {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #101116;
+    overflow-y: scroll;
+}
+
+.page-picker .title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: #567DDF;
+    background-color: #101116;
+    text-align: center;
+    position: sticky;
+    margin-top: 0;
+    top: 0;
+}
+
+.page-picker .category {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 3%;
+}
+
+.page-picker .page {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: block;
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    padding-left: 3%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.page-picker .selected {
+    color: #3D74FF;
+    text-decoration: underline;
+}
+
+
+.page-content {
+    display: inline;
+    overflow-y: scroll;
+}
+
+.page-content .header {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    margin-right: 1%;
+    margin-left: 21%;
+}
+
+.page-content .subheader {
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    margin-right: 1%;
+    margin-left: 21%;
+}
+
+.page-content .text {
+    font-family: Rubik, sans-serif;
+    font-size: 18px;
+    margin-right: 1%;
+    margin-left: 21%;
+}
+
+.page-content code {
+    margin-right: 1%;
+    margin-left: 21%;
+}
+
+.page-content pre {
+    font-size: 17px;
+    tab-size: 4;
 }
