@@ -47,9 +47,43 @@ h1, h2, h3, h4, h5, h6, p {
     text-decoration: none;
 }
 
+.page-picker .page:before {
+    content: "\A";
+    width: 0.5vw;
+    height: 1.1vh;
+    border-radius: 50%;
+    display: inline-block;
+    background: #FFFFFF;
+    margin: 1% 1%;
+}
+
+.page-picker .selected:before {
+    content: "\A";
+    width: 0.5vw;
+    height: 1.1vh;
+    border-radius: 50%;
+    display: inline-block;
+    background: #3D74FF;
+    margin: 1% 1%;
+}
+
 .page-picker .selected {
     color: #3D74FF;
     text-decoration: underline;
+}
+
+.page-picker .page:hover:before {
+    content: "\A";
+    width: 0.5vw;
+    height: 1.1vh;
+    border-radius: 50%;
+    display: inline-block;
+    background: #3D74FF;
+    margin: 1% 1%;
+}
+
+.page-picker .page:hover {
+    color: #3D74FF;
 }
 
 
